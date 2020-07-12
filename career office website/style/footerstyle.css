@@ -1,0 +1,62 @@
+.topFooter {
+    border-top: none;
+    color: #000;
+    background: #fff;
+    position: relative;
+    bottom: 0px;
+}
+
+.topFooter .contactDetails {
+    display: inline;
+    float: left;
+    width: 64.583333333%;
+    margin: 3vmax;
+    font-size: 1;
+}
+
+.topFooter .contactDetails div {
+    margin-left: 0;
+}
+
+.topFooter .contactDetails p.name {
+    font-weight: 600;
+}
+.topFooter .contactDetails p {
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+.topFooter .address .addressDetails {
+    line-height: 1.4;
+}
+
+.topFooter .contactDetails .addressDetails span {
+    display: block;
+}
+
+.topFooter div.address+p.header, .topFooter p.header+p.link {
+    margin-top: 1.5em;
+}
+
+.topFooter .contactDetails p.link {
+    margin: 0;
+}
+
+.topFooter .links {
+    display: inline;
+    float: left;
+    width: 14.583333333%;
+    margin: 0 1.041666667%;
+    background: none;
+    min-height: 22em;
+}
+
+.middleFooter {
+    background: #fff;
+    padding: 2.4em 0;
+    position: relative;
+    float: left;
+    content: "";
+    position: absolute;
+    width: 100%;
+}

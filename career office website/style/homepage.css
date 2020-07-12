@@ -1,0 +1,51 @@
+.flex-container{
+    display: grid;
+    grid-auto-columns: 60vw 30vw;
+}
+.flex-box{
+    width: fit-content;
+    height: fit-content;
+    max-width: 60vw;
+    align-content: center;
+    margin: 30px;
+    border-radius: 25px;
+    border: 2px solid rgb(98, 209, 243);
+    padding: 20px;
+}
+
+.box{
+    background-color: #48aef3;
+    background-blend-mode: hue;
+}
+
+.image{
+    width: 30vw;
+    height: auto;
+}
+
+
+
+.items{
+    background-color: rgb(12, 59, 92, 0.7);;
+    border: 1px solid #d1d1d1;
+    margin: 10px;
+    padding: 15px;
+    color: #d1d1d1;
+}
+
+
+
+
+.parallax { 
+    /* The image used */
+    background-image: url("http://schoolconstructionnews.com/wp-content/uploads/2017/09/FOMHouston.800.jpg");
+  
+    /* Set a specific height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

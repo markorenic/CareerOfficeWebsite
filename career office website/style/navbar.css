@@ -1,0 +1,66 @@
+.header-container{
+    display: grid;
+    height: 8vw ;
+}
+
+.topimage {
+    grid-row: 1/2;
+    background-color: azure;
+}
+
+.logo {
+    position: relative;
+    left: 10vmax;
+    top: 1vmax;
+
+
+}
+
+.blue {
+    background-color: #4DC3CF;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+@font-face {
+    font-family: SourceSansPro;
+    src: url("/resources/SourceSansPro.otf");
+}
+
+.topnav{
+    font-family: SourceSansPro;
+    font-size: 20px;
+}
+
+
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 1px 3%;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    border-radius: 25px;
+    border-width: 1px;
+    color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+    border-radius: 25px;
+    background-color: #4DC3CF;
+    color: white;
+    border-width: 1px;
+    border-color: white;
+}
+
+.empty{
+    width: 64px;
+    float: left;
+    color: #4DC3CF;
+}
+
+.right{
+    float: right;
+}

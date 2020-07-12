@@ -1,0 +1,94 @@
+
+.welcome-container {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-auto-rows: 38vw 40vw;
+  }
+
+.box{
+  padding: 10px;
+}
+
+.one { 
+  grid-column: 1 / 4;
+  background-color: aqua;
+}
+.two {
+  grid-column: 1;
+  grid-row: 2;
+}
+.three {
+  grid-column: 2;
+  grid-row: 2;
+}
+.four {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+@font-face {
+  font-family: SourceSansPro;
+  src: url('\resources\SourceSansPro-Regular.otf')
+}
+
+.shadow{
+    background-color: #4DC3CF;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+h1{
+  font-family: SourceSansPro;
+  text-align: center;
+}
+
+h2{
+  font-family: SourceSansPro;
+  align-content: center;
+}
+
+p{
+  font-family: SourceSansPro;
+  align-content: center;
+}
+
+html{
+  font-family: SourceSansPro;
+  background-image: url(resources/tiles.png)
+}
+
+/*Slideshow */
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+  .image{
+    max-height: 38vmax;
+  }
